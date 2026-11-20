@@ -72,3 +72,5 @@ done
 set_perm_recursive "$MODPATH" 0 0 0755 0644
 for s in service.sh post-fs-data.sh check.sh action.sh; do set_perm "$MODPATH/$s" 0 0 0755; done
 ui_print "- Selesai. Reboot, lalu buka game."
+ui_print " "
+ui_print "  💖 Follow IG & TikTok: @118harilagi"

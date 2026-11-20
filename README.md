@@ -2,103 +2,113 @@
 
 # 🎮 UGSpoof – Universal Game Spoof
 
-**Bikin game ngira HP kamu itu HP flagship, biar opsi grafis & FPS tinggi kebuka.**
+**Make games think your phone is a flagship, so high graphics & FPS options unlock.**
 
-Semua chipset arm64 · OpenGL ES + Vulkan · Per-game · Nggak ngubah file game
+Any arm64 chipset · OpenGL ES + Vulkan · Per-game · Doesn't touch game files
 
 [![Build](https://github.com/handokosyahputra/UGSpoof-MH-Outlander-All-game/actions/workflows/build.yml/badge.svg)](https://github.com/handokosyahputra/UGSpoof-MH-Outlander-All-game/actions/workflows/build.yml)
-![Versi](https://img.shields.io/github/v/release/handokosyahputra/UGSpoof-MH-Outlander-All-game?label=versi)
-![Lisensi](https://img.shields.io/badge/lisensi-MIT-blue)
+![Version](https://img.shields.io/github/v/release/handokosyahputra/UGSpoof-MH-Outlander-All-game?label=version)
+![License](https://img.shields.io/badge/license-MIT-blue)
 
-🇮🇩 Bahasa Indonesia · [🇬🇧 English](README.en.md)
+🇬🇧 English · [🇮🇩 Bahasa Indonesia](README.id.md)
 
 </div>
 
+### 💖 Support me
+
+If this module helps you, follow me for updates & more mods 🙏
+
+[![Instagram](https://img.shields.io/badge/Instagram-@118harilagi-E4405F?logo=instagram&logoColor=white)](https://www.instagram.com/118harilagi/)
+[![TikTok](https://img.shields.io/badge/TikTok-@118harilagi-black?logo=tiktok&logoColor=white)](https://www.tiktok.com/@118harilagi)
+
+A ⭐ on this repo helps a lot too!
+
+
 > [!WARNING]
-> **Risiko tanggung sendiri ya.** Spoof device bisa melanggar aturan game, dan anti-cheat bisa aja deteksi. Cobain dulu di **akun cadangan**. Modul ini cuma buat buka opsi grafis, **bukan buat cheat**.
+> **Use at your own risk.** Spoofing your device may break a game's rules, and anti-cheat might detect it. Try it on an **alt account** first. This module only unlocks graphics options. It's **not a cheat**.
 
-## 🤔 Ini apa sih?
+## 🤔 What is this?
 
-Banyak game ngunci grafis Ultra atau 120 FPS cuma buat HP tertentu. UGSpoof bikin game ngira kamu pakai HP flagship (misalnya REDMAGIC 9S Pro+ dengan Adreno 750).
+A lot of games lock Ultra graphics or 120 FPS to certain phones. UGSpoof makes the game think you're on a flagship (for example a REDMAGIC 9S Pro+ with an Adreno 750).
 
-Yang dipalsuin cuma **di dalam game**. Sistem, driver, dan app lain (bank, dll) tetap lihat HP asli kamu.
+The spoof only happens **inside the game**. Your system, drivers, and other apps (banking etc.) still see your real phone.
 
-> Catatan: spoof **nggak nambah tenaga HP**. Kalau HP-mu kelas menengah, naikin grafisnya pelan-pelan biar nggak lag atau panas.
+> Heads up: spoofing **doesn't make your phone faster**. On a mid-range phone, raise graphics step by step so it doesn't lag or overheat.
 
-## ✨ Fiturnya
+## ✨ Features
 
-- 🧠 Jalan di **semua chipset**: MediaTek, Snapdragon, Exynos, Unisoc (arm64)
-- 🔐 Support **Magisk, Kitsune, KernelSU, APatch**
-- 🖼️ Spoof **GPU**: OpenGL ES dan Vulkan
-- 📱 Spoof **device**: model, brand, chipset
-- 🎯 **Per-game**, app lain aman
-- 🗂️ **5 profil HP flagship** siap pakai, bisa bikin sendiri juga
-- 🕵️ Jejak chipset asli (misalnya MediaTek) disembunyiin dari game
-- ⚡ Ganti setting **tanpa reboot**
-- 💾 **Nggak wajib clear data**, jadi nggak perlu download ulang
+- 🧠 Works on **any chipset**: MediaTek, Snapdragon, Exynos, Unisoc (arm64)
+- 🔐 Supports **Magisk, Kitsune, KernelSU, APatch**
+- 🖼️ **GPU** spoof: OpenGL ES and Vulkan
+- 📱 **Device** spoof: model, brand, chipset
+- 🎯 **Per-game**, other apps stay untouched
+- 🗂️ **5 flagship profiles** ready to go, or make your own
+- 🕵️ Hides your real chipset (e.g. MediaTek) from the game
+- ⚡ Change settings **without rebooting**
+- 💾 **No data wipe needed**, so no re-downloading
 
-## 📋 Yang dibutuhin
+## 📋 Requirements
 
-- HP Android **64-bit** (Android 9+)
+- **64-bit** Android phone (Android 9+)
 - **Root + Zygisk**:
-  - Magisk / Kitsune → nyalain di *Settings → Zygisk*
-  - KernelSU / APatch → pasang [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) atau [ReZygisk](https://github.com/PerformanC/ReZygisk)
-- **Matiin** modul spoof GPU lain (iUnlocker, COPG, dll) biar nggak bentrok
+  - Magisk / Kitsune → turn on *Settings → Zygisk*
+  - KernelSU / APatch → install [ZygiskNext](https://github.com/Dr-TSNG/ZygiskNext) or [ReZygisk](https://github.com/PerformanC/ReZygisk)
+- **Disable** other GPU spoof modules (iUnlocker, COPG, etc.) so they don't clash
 
-> Nggak bisa tanpa root ya, karena app biasa nggak punya akses buat ngubah info yang dibaca game.
+> This doesn't work without root. Normal apps can't change what a game reads.
 
-## 📦 Cara pasang
+## 📦 Install
 
-1. Download zip terbaru di [Releases](https://github.com/handokosyahputra/UGSpoof-MH-Outlander-All-game/releases)
-2. Buka Magisk/KSU/APatch → **Modules → Install from storage** → pilih zip-nya
+1. Download the latest zip from [Releases](https://github.com/handokosyahputra/UGSpoof-MH-Outlander-All-game/releases)
+2. Open Magisk/KSU/APatch → **Modules → Install from storage** → pick the zip
 3. **Reboot**
-4. Buka game, cek menu grafis 🎉
+4. Open your game and check the graphics menu 🎉
 
-Pas install, modul bakal otomatis ngecek Zygisk, nampilin info HP kamu, dan nyari game yang didukung.
+During install, the module checks Zygisk, shows your phone info, and looks for supported games.
 
-### Masih kekunci?
+### Still locked?
 
-Coba **force stop** game terus buka lagi. Kalau masih kekunci, berarti game nyimpen hasil deteksi lama. Hapus file setting-nya aja, **jangan clear data** biar nggak download ulang:
+Try **force stopping** the game and opening it again. If it's still locked, the game saved its old detection result. Delete just its settings file. **Don't clear all data**, or you'll have to re-download everything:
 
 ```sh
 su
-PKG=nama.package.game
+PKG=game.package.name
 am force-stop $PKG
 cp -r /data/data/$PKG/shared_prefs /sdcard/backup_prefs_$PKG
 rm -rf /data/data/$PKG/shared_prefs
 ```
 
-Pastikan akun game udah di-bind dulu ya.
+Make sure your game account is linked first.
 
-## ⚙️ Pengaturan
+## ⚙️ Settings
 
-Edit file ini pakai file manager root (misalnya MT Manager):
+Edit this file with a root file manager (e.g. MT Manager):
 ```
 /data/adb/modules/ugspoof/config.txt
 ```
-Habis edit, cukup **force stop game** lalu buka lagi. Nggak perlu reboot.
+After editing, just **force stop the game** and open it again. No reboot needed.
 
 ```ini
-profile=redmagic_9s_pro                  # profil HP yang dipakai
-packages=com.game.satu, com.game.dua     # daftar game
-map.com.game.tiga=galaxy_s24_ultra       # profil khusus buat 1 game
+profile=redmagic_9s_pro                  # which phone profile to use
+packages=com.game.one, com.game.two      # your games
+map.com.game.three=galaxy_s24_ultra      # a different profile for one game
 
-enable_gl=1        # spoof OpenGL
-enable_vulkan=1    # spoof Vulkan
-enable_build=1     # spoof info device
-enable_props=1     # spoof system property
-global_props=0     # 1 = ubah model buat SEMUA app (nggak disaranin)
+enable_gl=1        # OpenGL spoof
+enable_vulkan=1    # Vulkan spoof
+enable_build=1     # device info spoof
+enable_props=1     # system property spoof
+global_props=0     # 1 = change model for ALL apps (not recommended)
 ```
 
-**Cara tahu nama package game:** lihat di link Play Store (`id=...`), atau ketik `su -c pm list packages | grep -i namagame` di terminal.
+**Finding a game's package name:** check its Play Store link (`id=...`), or run `su -c pm list packages | grep -i gamename` in a terminal.
 
-Mau bikin profil sendiri atau lihat semua opsi? Cek **[docs/CONFIG.md](docs/CONFIG.md)**.
+Want to make your own profile or see every option? Check **[docs/CONFIG.md](docs/CONFIG.md)**.
 
-## 📱 Profil yang tersedia
+## 📱 Built-in profiles
 
-Semuanya Snapdragon 8 Gen 3 + Adreno 750.
+All of them are Snapdragon 8 Gen 3 + Adreno 750.
 
-| Profil | HP |
+| Profile | Phone |
 |---|---|
 | `redmagic_9s_pro` | REDMAGIC 9S Pro+ |
 | `xiaomi_14` | Xiaomi 14 |
@@ -106,61 +116,46 @@ Semuanya Snapdragon 8 Gen 3 + Adreno 750.
 | `rog_phone_8_pro` | ROG Phone 8 Pro ⚠️ |
 | `oneplus_12` | OnePlus 12 ⚠️ |
 
-⚠️ = sebagian datanya belum diverifikasi. Punya data aslinya? Kirim PR ya!
+⚠️ = some of the data isn't verified yet. Got the real data? Send a PR!
 
-## 🩺 Ada masalah?
+## 🩺 Having issues?
 
-Buka game dulu, terus jalanin ini di terminal:
+Open the game first, then run this in a terminal:
 ```sh
 su -c sh /data/adb/modules/ugspoof/check.sh
 ```
 
-| Masalah | Coba ini |
+| Problem | Try this |
 |---|---|
-| Grafis masih kekunci | Cek `packages=` udah bener, force stop game, atau ganti profil |
-| Game crash | Set `enable_vulkan=0` |
-| Grafis aneh / glitch | Kosongin `gl_version=` |
-| Log kosong | Cek Zygisk udah nyala dan nama package udah bener |
+| Graphics still locked | Check `packages=` is correct, force stop the game, or try another profile |
+| Game crashes | Set `enable_vulkan=0` |
+| Weird graphics / glitches | Leave `gl_version=` empty |
+| Empty log | Check Zygisk is on and the package name is correct |
 
-Masih error? Bikin [Issue](https://github.com/handokosyahputra/UGSpoof-MH-Outlander-All-game/issues) dan tempel hasil `check.sh`-nya.
+Still stuck? Open an [Issue](https://github.com/handokosyahputra/UGSpoof-MH-Outlander-All-game/issues) and paste your `check.sh` output.
 
-## 🔧 Build sendiri
+## 🔧 Build it yourself
 
-Butuh Linux/WSL dengan `clang`, `lld`, `zip`, dan `gcc`:
+You'll need Linux/WSL with `clang`, `lld`, `zip`, and `gcc`:
 ```sh
 sudo apt install clang lld zip gcc
 ./build.sh
 ```
-Hasilnya ada di folder `out/`. Nggak perlu NDK.
+The output goes to `out/`. No NDK needed.
 
-Mau rilis versi baru? Ganti angka di `VERSION`, tulis catatan di `CHANGELOG.md`, terus:
+Releasing a new version? Bump the number in `VERSION`, add notes to `CHANGELOG.md`, then:
 ```sh
 git tag v4.0.1 && git push origin v4.0.1
 ```
-GitHub Actions bakal otomatis bikin Release-nya.
+GitHub Actions builds the Release for you.
 
-## 🤝 Kontribusi
+## 🤝 Contributing
 
-Bantuan sangat diterima! Terutama:
-- Profil HP baru, atau koreksi data profil yang ada
-- Laporan game atau HP yang berhasil maupun gagal
-- Perbaikan kode (jalanin `./build.sh test` dulu sebelum PR)
+Help is super welcome! Especially:
+- New phone profiles, or fixes for existing ones
+- Reports of games and phones that work (or don't)
+- Code improvements (run `./build.sh test` before opening a PR)
 
-## 💖 Dukung aku
+## 📜 License
 
-Kalau modul ini ngebantu, boleh banget follow atau dukung aku 🙏
-
-[![YouTube](https://img.shields.io/badge/YouTube-red?logo=youtube&logoColor=white)](https://youtube.com/@USERNAME)
-[![TikTok](https://img.shields.io/badge/TikTok-black?logo=tiktok&logoColor=white)](https://tiktok.com/@USERNAME)
-[![Instagram](https://img.shields.io/badge/Instagram-E4405F?logo=instagram&logoColor=white)](https://instagram.com/USERNAME)
-[![Telegram](https://img.shields.io/badge/Telegram-26A5E4?logo=telegram&logoColor=white)](https://t.me/USERNAME)
-
-[![Saweria](https://img.shields.io/badge/Saweria-FAAE2B?logoColor=black)](https://saweria.co/USERNAME)
-[![Trakteer](https://img.shields.io/badge/Trakteer-BE1E2D?logoColor=white)](https://trakteer.id/USERNAME)
-[![Ko-fi](https://img.shields.io/badge/Ko--fi-FF5E5B?logo=kofi&logoColor=white)](https://ko-fi.com/USERNAME)
-
-Kasih ⭐ di repo ini juga udah ngebantu banget!
-
-## 📜 Lisensi
-
-[MIT](LICENSE). Kodenya ditulis dari nol, nggak pakai kode dari iUnlocker, COPG, atau modul lain.
+[MIT](LICENSE). Written from scratch, with no code from iUnlocker, COPG, or any other module.
