@@ -1,0 +1,35 @@
+# ============ Universal Game Spoof (UGSpoof) - config ============
+# Edit pakai file manager root (MT Manager, dll).
+# Berlaku saat game dibuka ulang (force stop dulu). Tidak perlu reboot.
+
+# Profil default (nama file di folder profiles/, tanpa .conf):
+#   redmagic_9s_pro | galaxy_s24_ultra | xiaomi_14 | rog_phone_8_pro | oneplus_12
+profile=redmagic_9s_pro
+
+# Game yang memakai profil default (pisah koma). Diisi otomatis saat install.
+packages=
+
+# Profil khusus per game (opsional):
+# map.com.contoh.game=galaxy_s24_ultra
+
+# ---- Saklar fitur (1 = nyala, 0 = mati) ----
+enable_gl=1
+enable_vulkan=1
+enable_build=1
+enable_props=1
+# 1 = spoof juga ke UI sistem (hwui). Biarkan 0 supaya tampilan tidak rusak.
+spoof_system_callers=0
+
+# 1 = model/brand juga diubah global untuk SEMUA app (butuh reboot).
+# Biarkan 0: lebih aman, app bank & lainnya tidak terpengaruh.
+global_props=0
+
+# ---- Sembunyikan jejak chipset asli (hanya terlihat oleh kode game) ----
+prop.ro.mediatek.*=
+prop.ro.vendor.mediatek.*=
+prop.ro.vendor.mtk_*=
+
+# ---- Override (opsional): baris di sini menimpa isi profil ----
+# Contoh kalau game crash/grafis aneh di GPU non-Adreno:
+# gl_version=
+# enable_vulkan=0

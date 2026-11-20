@@ -1,0 +1,7 @@
+id=ugspoof
+name=Universal Game Spoof (Device + GPU)
+version=@VERSION@
+versionCode=@VERSIONCODE@
+author=@AUTHOR@
+description=Spoof device + GPU (OpenGL ES/Vulkan) per-game via Zygisk. Semua chipset arm64. Magisk/Kitsune/KernelSU/APatch.
+updateJson=@UPDATEJSON@
