@@ -6,8 +6,7 @@
 
 Any arm64 chipset · OpenGL ES + Vulkan · Per-game · Doesn't touch game files
 
-[![Build](https://github.com/handokosyahputra/UGSpoof-MH-Outlander-All-game/actions/workflows/build.yml/badge.svg)](https://github.com/handokosyahputra/UGSpoof-MH-Outlander-All-game/actions/workflows/build.yml)
-![Version](https://img.shields.io/github/v/release/handokosyahputra/UGSpoof-MH-Outlander-All-game?label=version)
+![Version]([https://img.shields.io/github/v/release/handokosyahputra/UGSpoof-MH-Outlander-All-game?label=version](https://github.com/handokosyahputra/UGSpoof-MH-Outlander-All-game/releases))
 ![License](https://img.shields.io/badge/license-MIT-blue)
 
 🇬🇧 English · [🇮🇩 Bahasa Indonesia](README.id.md)
