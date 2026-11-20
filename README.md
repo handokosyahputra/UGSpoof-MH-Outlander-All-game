@@ -1,6 +1,6 @@
 <div align="center">
 
-# 🎮 UGSpoof – Universal Game Spoof
+# 🎮 UGSpoof – MH Outlander & Universal Game Spoof
 
 **Make games think your phone is a flagship, so high graphics & FPS options unlock.**
 
